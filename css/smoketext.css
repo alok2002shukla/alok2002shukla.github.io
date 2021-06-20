@@ -1,0 +1,25 @@
+
+
+.smoketext {
+  /*background-image: linear-gradient(135deg, #9be15d 10%, #00e3ae 100%);*/
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 0.75;
+  margin: auto;
+  padding: auto;
+  padding-bottom: 0%;
+  animation-name: smoke;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes smoke {
+  0% {background-color:#00e3ae}
+  50% {background-color: coral}
+  100% {background-color: #9be15d}
+  
+}
